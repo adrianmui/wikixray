@@ -1,0 +1,103 @@
+-------------------------------------------------------
+WikiXRay - Tool to automate the analysis of Wikipedia
+-------------------------------------------------------
+
+Copyright (c) 2008-2010 Felipe Ortega
+
+<https://projects.libresoft.es/projects/show/wikixray/>
+<http://gitorious.org/wikixray>
+
+Note: This file contains useful information about WikiXRay.
+      For further information see the files in the "doc/"
+      directory.
+
+
+== Table of Contents ==
+
+ · Introduction
+
+
+
+== Introduction ==
+
+WikiXRay is a Python application aimed to automate the analysis of Wikipedia 
+database dumps. It was originally created to support the analysis performed
+in Felipe Ortega's PhD. thesis "Wikipedia: A quantitative analysis". This was
+the first research work to undertake a side-by-side comparison, from a
+quantitative perspective, of the top-ten Wikipedias (according to their
+number of encyclopedic articles).
+
+Right now, it is mostly a collection of scripts to perform each individual
+analysis included in this work, and other subsequent studies. It is intended
+to evolve into a fully functional tool that will offer a comprehensive and
+easy to use framework to automate the analysis of any Wikipedia version.
+
+Currently, WikiXRay includes the following features:
+
+ - SAX parsers to import information from Wikipedia database dumps. It
+   supports the following dump files:
+   
+     - pages-meta-history.xml.7z: Full dump of complete revision history for 
+       all pages.
+
+     - pages-logging.xml.gz: Dump of logged actions (blocks, deletions,
+       flagged revisions, etc.).
+
+ - Article analysis: authorship, content, evolution.
+ - Editorial work: number of editors, effort trends, evolution.
+ - Survival analysis: community size, number of active editors.
+ - Featured Articles: content, size, editors, evolution.
+ - Inequality analysis of: editors contributions, edits in articles,
+   evolution.
+
+== License ==
+
+Copyright (C) 2008-2010 Felipe Ortega
+
+This program is free software: you can redistribute it and/or modify it 
+under the terms of the GNU General Public License as published by 
+the Free Software Foundation, either version 3 of the License, or 
+(at your option) any later version. 
+
+This program is distributed in the hope that it will be useful, but WITHOUT 
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or 
+FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
+for more details.
+
+The full version of this license can be found in the COPYING file,
+distributed along with this program. 
+
+== Contact ==
+
+Current Maintainer
+-------------------
+
+	Felipe Ortega
+
+Original Author
+-------------------
+
+	Felipe Ortega
+
+Bugs and other issues
+-----------------------
+
+	BTS TO BE SET UP
+
+== Links ==
+
+WikiXRay links
+-----------------------
+
+  WikiXRay @ Libresoft, <http://projects.libresoft.es/projects/show/wikixray/>
+  WikiXRay @ meta.wikimedia, <http://meta.wikimedia.org/wiki/WikiXRay>
+  WikiXRay project @ Gitorious, <http://gitorious.org/wikixray>
+
+  Wikimedia Download center: <http://download.wikimedia.org>
+
+Other links
+-----------------------
+
+  LibreSoft web, <http://libresoft.es/>
+  LibreSoft projects, <http://projects.libresoft.es/>
+  LibreSoft repository, <http://git.libresoft.es/>
