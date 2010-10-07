@@ -2,9 +2,9 @@
 WikiXRay - Tool to automate the analysis of Wikipedia
 -------------------------------------------------------
 
-Copyright (c) 2008-2010 Felipe Ortega
+Copyright (c) 2006-2010 Felipe Ortega
 
-<https://projects.libresoft.es/projects/show/wikixray/>
+<http://projects.libresoft.es/projects/show/wikixray/>
 <http://gitorious.org/wikixray>
 
 Note: This file contains useful information about WikiXRay.
@@ -50,9 +50,17 @@ Currently, WikiXRay includes the following features:
  - Inequality analysis of: editors contributions, edits in articles,
    evolution.
 
+The list of included tools as of October 2010 is:
+
+ - general: Macroscopic statistics about Wikipedia articles and editors.
+ - social-structure: Analysis of structure of the community of editors.
+ - demography: Demographic evolution of the community of editors.
+ - quality: Analysis of Featured Articles.
+ - evolution: Development of key metrics over time.
+
 == License ==
 
-Copyright (C) 2008-2010 Felipe Ortega
+Copyright (C) 2006-2010 Felipe Ortega
 
 This program is free software: you can redistribute it and/or modify it 
 under the terms of the GNU General Public License as published by 
