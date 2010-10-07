@@ -1,0 +1,3 @@
+CREATE OR REPLACE VIEW time_max_articles AS select rev_user, rev_timestamp from revision where rev_id IN (select page_latest FROM page where page_namespace=0);
+CREATE OR REPLACE VIEW time_max_FAs AS select rev_user, rev_timestamp from revision where rev_id IN (select page_latest FROM page where page_id IN (SELECT page_id from page_FAs));
+CREATE OR REPLACE VIEW time_max_non_FAs AS select rev_user, rev_timestamp from revision where rev_id IN (select page_latest FROM page where page_namespace=0 and page_id NOT IN (SELECT page_id from page_FAs));
