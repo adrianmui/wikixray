@@ -26,13 +26,6 @@ dump to a local MySQL database.
 This way, we have prepared the database for the next steps in the quantitative
 analysis process.
 
-@see: quantAnalay_main
-
-@authors: Jose Felipe Ortega
-@organization: Grupo de Sistemas y Comunicaciones, Universidad Rey Juan Carlos
-@copyright:    Universidad Rey Juan Carlos (Madrid, Spain)
-@license:      GNU GPL version 2 or any later version
-@contact:      jfelipe@gsyc.escet.urjc.es
 """
 
 import os, datetime, string, dbaccess

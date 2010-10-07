@@ -24,11 +24,6 @@ Generic methods providing access to the MySQL database.
 
 @see: quantAnalay_main
 
-@authors: Jose Felipe Ortega
-@organization: Grupo de Sistemas y Comunicaciones, Universidad Rey Juan Carlos
-@copyright:    Universidad Rey Juan Carlos (Madrid, Spain)
-@license:      GNU GPL version 2 or any later version
-@contact:      jfelipe@gsyc.escet.urjc.es
 """
 
 import MySQLdb

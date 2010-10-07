@@ -20,15 +20,8 @@
 # Author: Felipe Ortega
 #
 """
-Main module of WikiXRay, responsible for calling the other functional modules.
 
-@see: quantAnalay_main
 
-@authors: Jose Felipe Ortega
-@organization: Grupo de Sistemas y Comunicaciones, Universidad Rey Juan Carlos
-@copyright:    Universidad Rey Juan Carlos (Madrid, Spain)
-@license:      GNU GPL version 2 or any later version
-@contact:      jfelipe@gsyc.escet.urjc.es
 """
 
 import os, string, dbaccess

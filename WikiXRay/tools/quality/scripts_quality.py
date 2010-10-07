@@ -26,13 +26,6 @@ overall statistics section
 Prior to the execution of this module, the required activity data must
 have been retrieved and loaded into a local MySQL database.
 
-@see: quantAnalay_main, dbdump, dbanaly
-
-@authors: Jose Felipe Ortega
-@organization: GSyC/Libresoft, Universidad Rey Juan Carlos
-@copyright:    Felipe Ortega @ Libresoft, URJC (Madrid, Spain)
-@license:      GNU GPL version 2 or any later version
-@contact:      jfelipe@libresoft.es
 """
 
 import os
