@@ -23,8 +23,8 @@
 library("RMySQL")
 library("MASS")
 library("Hmisc")
-source("aaronc/pareto.R")
-source("aaronc/plfit.r")
+# source("aaronc/pareto.R") #Apparently, not needed any more, supported by VGAM
+source("dubroca/plfit.r")
 
 langs=c("sv","es","pt","nl","it","pl","ja","fr","de","en")
 colors=c("red", "orange", "green", "brown", "navy")

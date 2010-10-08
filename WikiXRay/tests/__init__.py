@@ -18,23 +18,4 @@
 # License along with this program. If not, see <http://www.gnu.org/licenses/>
 #
 # Author: Felipe Ortega
-#
-"""
-This module is aimed to execute the set of scripts currently deveolped
-for automating the analysis of any Wikipedia.
-
-Prior to the execution of this module, the required activity data must
-have been retrieved and loaded into a local MySQL database.
-"""
-
-class WikiXRay(object):
-"""
-The main class to call each individual script
-"""
-  def __init__(self):
-    
-    pass
-    
-if __name__ == '__main__':
-    conf=q.qA_conf()
-    foobar=launcher()
+# 

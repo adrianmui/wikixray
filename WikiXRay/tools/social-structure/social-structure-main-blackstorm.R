@@ -24,8 +24,8 @@ library("RMySQL")
 library("MASS")
 library("Hmisc")
 #library("rmutil")
-source("aaronc/pareto.R")
-source("aaronc/plfit.r") #Already loads VGAM, for truncated Pareto
+# source("aaronc/pareto.R") #Apparently, not needed any more, supported by VGAM
+source("dubroca/plfit.r") #Already loads VGAM, for truncated Pareto
 
 langs=c("sv","es","pt","it","nl","pl","ja","fr","de","en")
 
