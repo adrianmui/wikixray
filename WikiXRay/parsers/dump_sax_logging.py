@@ -295,15 +295,11 @@ class wikiHandler(ContentHandler):
                     self.timeCheck=datetime.datetime.now()
                     self.timeDelta=self.timeCheck-self.start
                     if self.timeDelta.seconds==0:
-                        print >> sys.stderr, "logitem %d (%f logitems per sec.)"\
-                        % (self.log_num, 1e6*float(self.log_num)/self.timeDelta.microseconds)
                         self.printfile = codecs.open(self.options.log,'a','utf_8')
                         self.printfile.write("logitem "+str(self.log_num)+" ("+\
                         str( 1e6*float(self.log_num)/self.timeDelta.microseconds)+" logitems. per sec.)\n")
                         self.printfile.close()
                     else:
-                        print >> sys.stderr, "logitem %d (%f logitems per sec.)"\
-                        % (self.log_num, float(self.log_num)/self.timeDelta.seconds)
                         self.printfile = codecs.open(self.options.log,'a','utf_8')
                         self.printfile.write("logitem "+str(self.log_num)+" ("+\
                         str( float(self.log_num)/self.timeDelta.seconds)+" logitems. per sec.)\n")
