@@ -216,7 +216,9 @@ class wikiHandler(ContentHandler):
               self.printfile.close()
               return
             
-            self.debug(newloginsert)
+            ## Warning!! Uncomment next line only for debugging purposes
+            ## This may consume significant space in storage drive
+            #self.debug(newloginsert)
 	    
             ##############################################
             ## LOOK-AHEAD ALGORITHM
